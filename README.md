@@ -6,9 +6,9 @@
   <br/>
   <br/>
 
-[![Tests Status][badge-tests]][actions]
-[![Deploy Status][badge-deploy]][deploy]
-![badge-domains]
+<img src="https://img.shields.io/github/actions/workflow/status/pythonicboat/is-a.co/tests.yml?branch=master&label=tests&logo=github&style=for-the-badge" alt="badge-tests">
+<img src="https://img.shields.io/github/actions/workflow/status/pythonicboat/is-a.co/deploy.yml?branch=master&label=deploy&logo=github&style=for-the-badge" alt="badge-deploy">
+<img src="https://img.shields.io/github/directory-file-count/pythonicboat/is-a.co/domains?label=domains&style=for-the-badge&type=file" alt="badge-domains">
 </div>
 
 Free subdomains for personal sites, open-source projects, and more. Here is a list of supported domain names:
@@ -101,10 +101,6 @@ First of all, I want to answer one important question - "Why are you giving out 
 
 - What is GitHub pages and how to set up a custom domain, read the [docs here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
 - The difference between `A`, `CNAME`, and other record types, the article on Wikipedia [is here](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
-
-[badge-tests]:https://img.shields.io/github/actions/workflow/status/pythonicboat/is-a.co/tests.yml?branch=master&label=tests&logo=github&style=for-the-badge
-[badge-deploy]:https://img.shields.io/github/actions/workflow/status/pythonicboat/is-a.co/deploy.yml?branch=master&label=deploy&logo=github&style=for-the-badge
-[badge-domains]:https://img.shields.io/github/directory-file-count/pythonicboat/is-a.co/domains?label=domains&style=for-the-badge&type=file
 
 [actions]:https://github.com/tarampampam/free-domains/actions
 [deploy]:https://github.com/tarampampam/free-domains/actions/workflows/deploy.yml
