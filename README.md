@@ -103,5 +103,5 @@ First of all, I want to answer one important question - "Why are you giving out 
 [actions]:https://github.com/pythonicboat/is-a.co/actions
 [deploy]:https://github.com/pythonicboat/is-a.co/actions/workflows/deploy.yml
 <div align="center">
-<a href="https://hits.sh/github.com/pythonicboat/hits/"><img alt="Visitors" src="https://hits.sh/github.com/pythonicboat/hits.svg"/></a>
+<a href="https://hits.sh/is-a.co/"><img alt="Hits" src="https://hits.sh/is-a.co.svg?label=Visitors"/></a>
 </div>
