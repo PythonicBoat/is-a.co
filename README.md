@@ -38,7 +38,7 @@ First of all, I want to answer one important question - "Why are you giving out 
 |                    Opportunistic Encryption, TLS 1.3 *                     |             ✅             |
 |                      WAF (Web Application Firewall) *                      | ✅ (Medium Security Level) |
 |                         Browser Integrity Check *                          |             ✅             |
-|            [Caching Level][caching-levels], Browser Cache TTL *            |     Auto, 6 hours          |
+|            [Caching Level][caching-levels], Browser Cache TTL *            |     Auto, 4 hours          |
 |                      [Crawler Hints][crawler-hints] *                      |             ✅             |
 | [HTTP/2][http2], [HTTP/2 to Origin][http2-to-origin], HTTP/3 (with QUIC) * |             ✅             |
 |                   [0-RTT Connection Resumption][0rtt] *                    |             ✅             |
