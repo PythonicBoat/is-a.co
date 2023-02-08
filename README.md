@@ -4,8 +4,6 @@
     <img src="https://socialify.git.ci/pythonicboat/is-a.co/image?description=1&font=Raleway&forks=1&issues=1&owner=0&pulls=1&pattern=Solid&stargazers=1&theme=Light">
   </picture>
   <br/>
-  <br/>
-
 <img src="https://img.shields.io/github/actions/workflow/status/pythonicboat/is-a.co/tests.yml?branch=master&label=tests&logo=github&style=for-the-badge" alt="badge-tests">
 <img src="https://img.shields.io/github/actions/workflow/status/pythonicboat/is-a.co/deploy.yml?branch=master&label=deploy&logo=github&style=for-the-badge" alt="badge-deploy">
 <img src="https://img.shields.io/github/directory-file-count/pythonicboat/is-a.co/domains?label=domains&style=for-the-badge&type=file" alt="badge-domains">
@@ -102,5 +100,5 @@ First of all, I want to answer one important question - "Why are you giving out 
 - What is GitHub pages and how to set up a custom domain, read the [docs here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
 - The difference between `A`, `CNAME`, and other record types, the article on Wikipedia [is here](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
 
-[actions]:https://github.com/tarampampam/free-domains/actions
-[deploy]:https://github.com/tarampampam/free-domains/actions/workflows/deploy.yml
+[actions]:https://github.com/pythonicboat/is-a.co/actions
+[deploy]:https://github.com/pythonicboat/is-a.co/actions/workflows/deploy.yml
