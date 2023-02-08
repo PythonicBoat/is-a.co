@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/domain.schema.json",
+  "description": "DMARC record",
+  "domain": "is-a.co",
+  "subdomain": "_dmarc",
+  "owner": {
+    "repo": "https://github.com/pythonicboat/is-a.co"
+  },
+  "record": {
+    "TXT": [
+      "v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;"
+    ]
+  }
+}

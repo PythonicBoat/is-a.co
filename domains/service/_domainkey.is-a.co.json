@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/domain.schema.json",
+  "description": "DKIM record",
+  "domain": "is-a.co",
+  "subdomain": "*._domainkey",
+  "owner": {
+    "repo": "https://github.com/pythonicboat/is-a.co"
+  },
+  "record": {
+    "TXT": [
+      "v=DKIM1; p="
+    ]
+  }
+}
