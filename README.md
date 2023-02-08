@@ -3,7 +3,6 @@
 <head>
   <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
 </head>
-<body>
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/pythonicboat/is-a.co/image?description=1&font=Raleway&forks=1&issues=1&owner=0&pattern=Solid&stargazers=1&theme=Dark">
@@ -114,5 +113,3 @@ First of all, I want to answer one important question - "Why are you giving out 
 
 [actions]:https://github.com/tarampampam/free-domains/actions
 [deploy]:https://github.com/tarampampam/free-domains/actions/workflows/deploy.yml
-</body>
-</html>
