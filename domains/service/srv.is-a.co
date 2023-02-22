@@ -1,0 +1,13 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "Trying to create projects like jitsi meet, need a tiny domain!",
+  "domain": "is-a.co",
+  "subdomain": "srv",
+  "owner": {
+    "repo": "https://github.com/masckmaster2007/is-a.co",
+    "email": "contactus@dimisaio.x10.mx"
+  },
+  "record": {
+    "NS": ["ns1.desec.io", "ns2.desec.org"]
+  }
+}
