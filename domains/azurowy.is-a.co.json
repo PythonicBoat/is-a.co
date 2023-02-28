@@ -1,0 +1,14 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "Azure ADFS testing",
+  "domain": "is-a.co",
+  "subdomain": "azurowy",
+  "owner": {
+    "repo": "<https://github.com/super-admins/is-a.co.git>",
+    "email": "<amo@wir.pl>"
+  },
+  "record": {
+    "NS": ["ns1-38.azure-dns.com.", "ns2-38.azure-dns.net.", "ns3-38.azure-dns.org.", "ns4-38.azure-dns.info."]
+  },
+  "proxy": false 
+}
