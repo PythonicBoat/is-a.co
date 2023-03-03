@@ -1,7 +1,7 @@
 addSubDomain({
   description: 'Test for the subdomain',
   domain: 'is-a.co',
-  subdomain: 'test',
+  subdomain: 'check',
   owner: {
     repo: 'https://github.com/pythonicboat/is-a.co',
     email: 'vs21yash@gmail.com',
