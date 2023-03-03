@@ -3,10 +3,10 @@
 ```js
 addSubDomain({
   description: '',
-  domain: 'is-an.app',
-  subdomain: 'shredmod',
+  domain: 'is-a.co',
+  subdomain: '<name>',
   owner: {
-    repo: 'https://github.com/ShredMod/<link/to/repo>',
+    repo: 'https://github.com/<username>/<link/to/repo>',
     email: '<your@email>',
   },
   record: {
