@@ -1,9 +1,9 @@
 addSubDomain({
-  description: 'Test for the subdomain',
+  description: 'subdomain for my protfolio website',
   domain: 'is-a.co',
-  subdomain: 'check',
+  subdomain: 'portfolio',
   owner: {
-    repo: 'https://github.com/pythonicboat/is-a.co',
+    repo: 'https://github.com/pythonicboat/portfolio',
     email: 'vs21yash@gmail.com',
   },
   record: {
