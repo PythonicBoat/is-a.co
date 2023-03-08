@@ -1,0 +1,14 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "<describe your project in this field>",
+  "domain": "is-a.co",
+  "subdomain": "futuretool",
+  "owner": {
+    "repo": "<https://URL/to/the/repository/with/subdomain/content/sources>",
+    "email": "general.792ul@aleeas.com"
+  },
+  "record": {
+    "CNAME": "custom-proxy.leadpages.net",
+  },
+  "proxy": false // disable the CF proxy, proxying is always enabled by default
+}
