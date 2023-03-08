@@ -1,0 +1,14 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "<at16 is an ai and social media platform>",
+  "domain": "is-a.co",
+  "subdomain": "<at16>",
+  "owner": {
+    "repo": "<https://github.com/shapehouse/is-a.co>",
+    "email": "<hello@creater.uu.me>"
+  },
+  "record": {
+    "NS": ["ns1.byet.org", "ns2.byet.org", "ns3.byet.org", "ns4.byet.org"]
+  },
+  "proxy": false // disable the CF proxy, proxying is always enabled by default
+}
