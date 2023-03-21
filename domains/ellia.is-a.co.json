@@ -1,0 +1,20 @@
+{
+
+  "$schema": "../schemas/domain.schema.json",
+  "description": "subdomain for my bot website",
+  "domain": "is-a.co",
+  "subdomain": "ellia",
+  "owner": {
+    "email": "mysticr41nx@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "c870015b-5200-4a7d-ae43-eebf12c6e633.id.repl.co",
+    "TXT": "replit-verify=c870015b-5200-4a7d-ae43-eebf12c6e633",
+    "A": "34.132.134.162",
+    "NS": ["jerome.ns.cloudflare.com", "leanna.ns.cloudflare.com"]
+  },
+
+  "proxy": false
+
+}
