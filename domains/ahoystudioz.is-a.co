@@ -1,0 +1,13 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "Website for a graphics designer",
+  "domain": "is-a.co",
+  "subdomain": "ahoystudioz",
+  "owner": {
+    "repo": "https://github.com/BadPotato1007/portfolio---vite",
+    "email": "neeravgupta07@gmail.com"
+  },
+  "record": {
+  },
+  "proxy": false // disable the CF proxy, proxying is always enabled by default
+}
