@@ -1,4 +1,5 @@
 <div align="center">
+  <h1> V2 COMING SOON! </h1>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/pythonicboat/is-a.co/image?description=1&font=Raleway&forks=1&issues=1&owner=0&pattern=Solid&stargazers=1&theme=Dark">
     <img src="https://socialify.git.ci/pythonicboat/is-a.co/image?description=1&font=Raleway&forks=1&issues=1&owner=0&pulls=1&pattern=Solid&stargazers=1&theme=Light">
@@ -63,37 +64,10 @@ First of all, I want to answer one important question - "Why are you giving out 
 # How to get one?
 
 1. Star and [fork](https://github.com/pythonicboat/is-a.co/fork) this repository
-2. Add a new file called `<your-subdomain-name>.<root-domain>.json` in the `./domains` folder to register `<your-subdomain-name>` subdomain
-3. Edit it (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict; format you can [check here](https://jsonlint.com/)):
+2. Go to [Webstite](https://is-a.co)
+3. 
 
-```json
-{
-  "$schema": "../schemas/domain.schema.json",
-  "description": "<describe your project in this field>",
-  "domain": "is-a.co",
-  "subdomain": "<your subdomain name>",
-  "owner": {
-    "repo": "<https://URL/to/the/repository/with/subdomain/content/sources>",
-    "email": "<your-public@email.address>"
-  },
-  "record": {
-    "CNAME": "<cname-domain>",
-    "TXT": ["list", "of", "required", "txt", "records"],
-    "A": ["list", "of", "IPv4", "addresses", "like", "a", "127.0.0.1"],
-    "AAAA": ["list", "of", "IPv6", "addresses", "like", "a", "::1"],
-    "NS": ["list", "of", "nameservers"]
-  },
-  "proxy": false // disable the CF proxy, proxying is always enabled by default
-}
-```
-
-> For the more details about the format, please, check the [JSON schema](./schemas/domain.schema.json)
-
-4. Your pull request will be reviewed and merged. Please, don't ignore the PR checklist. If you ignore this repository rules, your PR will be ignored too. _Make sure to keep an eye on it in case we need you to make any changes!_
-5. After the pull request is merged, please allow up to 24 hours for the changes to propagate _(usually, it takes about 5 minutes)_
-6. Enjoy your new domain!
-
-> Domains, used for illegal purposes will be removed and permanently banned. Please, provide a clear description of your resource in the PR.
+> Domains, used for illegal purposes will be removed and permanently banned.
 
 ## If you don't know...
 
