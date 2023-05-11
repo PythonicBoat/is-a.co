@@ -1,1 +1,14 @@
-
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "Kaffah Shortener URL",
+  "domain": "is-a.co",
+  "subdomain": "kaffah",
+  "owner": {
+    "repo": "https://github.com/muhginanjar/is-a.co",
+    "email": "muhginanjar@yahoo.co.id"
+  },
+  "record": {
+    "A": ["151.79.243.20"],
+  },
+  "proxy": false // disable the CF proxy, proxying is always enabled by default
+}
