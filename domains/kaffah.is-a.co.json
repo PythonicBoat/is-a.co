@@ -8,7 +8,7 @@
     "email": "muhginanjar@yahoo.co.id"
   },
   "record": {
-    "A": ["151.79.243.20"],
+    "A": ["151.79.243.20"]
   },
-  "proxy": false // disable the CF proxy, proxying is always enabled by default
+  "proxy": false
 }
