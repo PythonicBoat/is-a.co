@@ -4,27 +4,22 @@
 addSubDomain({
   description: '',
   domain: 'is-a.co',
-  subdomain: '<name>',
+  subdomain: '<bloodbbs>',
   owner: {
-    repo: 'https://github.com/<username>/<link/to/repo>',
-    email: '<your@email>',
+    repo: 'https://github.com/<zelionthunder>/<link/to/repo>',
+    email: '<zelionthunder@gmail.com>',
   },
   record: {
     CNAME: '<record>',
   },
   nested: [
     {
-      subdomain: '<name>',
+      subdomain: '<bloodbbs>',
       record: {
-        CNAME: '<record>',
+        A: '65.163.121.99',
       },
     },
-    {
-      subdomain: '<name2>',
-      record: {
-        CNAME: '<record>',
-      },
-    },
+    
   ],
 })
 ```
