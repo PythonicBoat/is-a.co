@@ -1,30 +1,28 @@
-name: website
+name: Node.js Website CI
 
 on:
   push:
-    branches: [master, main]
-    paths: [web/**, .github/workflows/website.yml]
-
-concurrency:
-  group: ${{ github.ref }}-website
-  cancel-in-progress: true
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  update:
-    name: Publish website
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      - uses: actions/configure-pages@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
 
-      - uses: actions/upload-pages-artifact@v1
-        with: {path: web}
+      - name: Install dependencies
+        run: npm ci
 
-      - {uses: actions/deploy-pages@v1, id: deployment}
+      - name: Start server
+        run: node server.js
