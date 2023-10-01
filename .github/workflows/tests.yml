@@ -18,7 +18,7 @@ jobs:
     name: GitLeaks
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with: {fetch-depth: 0}
 
       - uses: gacts/gitleaks@v1
@@ -27,7 +27,7 @@ jobs:
     name: DNSControl check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - uses: gacts/install-dnscontrol@v1
 
@@ -37,7 +37,7 @@ jobs:
     name: Validate schemas
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - uses: walbo/validate-json@v1.1.0
         with:
