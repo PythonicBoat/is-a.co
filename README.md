@@ -1,3 +1,7 @@
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=pythonicboat/is-a.co@github)](https://gitads.dev/v1/ad-track?source=pythonicboat/is-a.co@github)
+
+
 <h1>TL;DR ⌨️</h1> <img src="https://img.shields.io/badge/Repo%20Status-Archived-lightgrey.svg">
 <p>This project turned out to be an unprecedented phenomenal success! As a member of GitHub Education, I acquired the domain at no cost, which provided a strong foundation to build upon. The support from contributors throughout the journey was truly exceptional and played a significant role in this achievement.
 </p>
@@ -88,3 +92,4 @@ First of all, I want to answer one important question - "Why are you giving out 
 <a href="https://hits.sh/is-a.co/"><img alt="Hits" src="https://hits.sh/is-a.co.svg?label=Visitors&color=555555&labelColor=44cc11"/></a>
 </div>
 <!-- GitAds-Verify: AYK682KOQPMUE8MQ82IT1SS8E5B9CVF8 -->
+
