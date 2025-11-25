@@ -1,0 +1,11 @@
+{
+  "domain": "happyhookinghaven",
+  "subdomain": "is-a.co",
+  "owner": {
+    "email": null
+  },
+  "record": {
+    "CNAME": "coolschool6.github.io"
+  },
+  "proxied": true
+}
